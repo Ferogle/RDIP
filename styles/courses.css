@@ -1,0 +1,39 @@
+body{
+    text-align: center;
+    background-color: aqua;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    margin-left: 500px;
+}
+div{
+    text-align: center;
+}
+ul{
+    margin: 0rem;
+    padding: 0rem;
+}
+li{
+    list-style: none;
+    padding: 0;
+}
+table{
+    text-align: center;
+}
+h1{
+    text-align: center;
+    color:rgb(206, 31, 31);
+    font-size: 5rem;
+}
+button{
+    text-align: center;
+    margin-top: 2rem;
+    font-size: large;
+    color: brown;
+}
+a{
+    text-decoration: none;
+    color:black
+}
