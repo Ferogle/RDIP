@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <style>
+        h3,img{
+            display: inline-block;
+        }
+        img{
+            height: 100px;
+            width:170px;
+            margin:10px;
+        }
+        h3{
+            width:70rem;
+            text-align: right;
+            height:100px;
+            vertical-align: middle;
+            font-size: 2rem;
+        }
+        h2{
+            margin:0.5rem;
+        }
+        .myimg{
+            margin-right:50px;
+            float: right;
+            height:7rem;
+        }
+        div{
+            display: inline-block;
+        }
+        h4{
+            display:inline-block;
+            margin:0 5px;
+            padding-top:0.75rem;
+            height: 3rem;
+            vertical-align: middle;
+        }
+        .navbar{
+            height:3rem;
+            margin-left:12px;
+            margin-right: 40px;
+            background-color: black;
+            color:white;
+            vertical-align: middle;
+        }
+        a{
+            text-decoration: none;
+        }
+        .navbar a{
+            color:white;
+        }
+        form{
+            margin-left:5rem;
+            margin-top: 2rem;
+        }
+        #fname{
+            margin-left: 5rem;
+        }
+        #email{
+            margin-left: 7rem;
+        }
+        #pnumber{
+            margin-left: 3.3rem;
+        }
+        #genders{
+            display: inline-block;
+            margin-left: 6rem;
+        }
+        #reasons{
+            margin-left: 2.1rem;
+        }
+        #college{
+            margin-left: 6rem;
+        }
+        .declare{
+            margin-left: 5rem;
+        }
+        button{
+            margin-left: 6rem;
+            margin-top: 1rem;
+
+        }
+        main{
+            font-weight: 700;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="https://www.iiit.ac.in/"><img src="https://www.iiit.ac.in/img/iiit-new.png" alt="IIIT-H"></a>
+            <h3><a href="https://serc.iiit.ac.in/rdip">RDIP</a></h3>
+        </nav>
+        <nav class="navbar">
+            <h4><a href="homepage.html">Home</a></h4>
+            <h4><a href="registration.html">Registration Form</a></h4>
+        </nav>
+    </header>
+    <main>
+        <div>
+            <form action="details.html" method="GET" name="regdetails" onsubmit="detailsSub()">
+                <br>
+                <label for="fname">First Name:</label>
+                <input type="text" id="fname" name="fname" required><br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+                <label for="pnumber">Phone Number:</label>
+                <input type="number" id="pnumber" name="pnumber" required><br><br>
+                <label for="gender" required>Gender:</label>
+                <div id="genders">
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">Male</label>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Female</label>
+                    <input type="radio" id="other" name="gender" value="other">
+                    <label for="other">Other</label> 
+                </div>
+                <br><br>
+                <label for="reasons" required>Reason for RDIP:</label>
+                <div id="reasons" required>
+                    <input type="checkbox" id="rhtml" name="rhtml">
+                    <label for="rhtml">HTML</label>
+                    <input type="checkbox" id="rcss" name="rhtml" >
+                    <label for="rcss">CSS</label>
+                    <input type="checkbox" id="rjs" name="rjs" >
+                    <label for="rjs">Javascript</label>
+                </div>
+                <br><br>
+                <label for="college">College:</label>
+                <input type="text" id="college" name="college" required><br><br>
+                <input type="checkbox" id="declaration" name="declaration" required>
+                <label class="declare" for="declaration">I declare above details given by me are true.</label>
+                <br>
+                <button type="submit">Submit</button>
+                <button>Reset</button>
+            </form>
+        </div>
+    </main>
+</body>
+</html>
