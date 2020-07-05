@@ -1,26 +1,51 @@
 body{
-    text-align: center;
     background-color: aqua;
+    font-family: serif;
+    font-style: italic;
+}
+h1{
+    padding:1rem;
 }
 table, th, td {
     border: 1px solid black;
     border-collapse: collapse;
     text-align: center;
-    margin-left: 500px;
+    outline-style: dashed;
+    outline-width: 2px;
+    outline-offset: 3px;
+    outline-color: rgb(211, 20, 20);
 }
-div{
-    text-align: center;
+
+.marks{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
 }
+
+#headrow{
+    color: rgb(137, 14, 141);
+    font-size: 1.5rem;
+}
+
+.row{
+    padding:2rem;
+    font-weight: 700;
+}
+
+th,td{
+    padding:1rem;
+}
+
 ul{
     margin: 0rem;
     padding: 0rem;
 }
 li{
-    list-style: none;
     padding: 0;
+    list-style-type: square; 
 }
-table{
-    text-align: center;
+
+ol li{
+    color: rgb(45, 138, 9);
 }
 h1{
     text-align: center;
@@ -37,3 +62,40 @@ a{
     text-decoration: none;
     color:black
 }
+
+a:link {
+    color: red;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: #969e51;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: hotpink;
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+  }
+
+li:first-of-type{
+    display:none;
+}
+
+.td{
+    text-align:left ;
+    padding: 0px 15px 0px 0px;
+
+}
+
+td+td{
+    text-align: right;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }

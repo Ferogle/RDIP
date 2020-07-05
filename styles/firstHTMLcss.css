@@ -1,20 +1,50 @@
 body{
-    background-image: url("https://www.verdict.co.uk/wp-content/uploads/2019/03/pros-and-cons-of-ai-1440x1047.jpg");
+    background-image: url("../photos/ai.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
     font-family: sans-serif;
-    color: aqua;
 }
-
 iframe {
     position:absolute;
     top: 30px;
     left:1100px;
 }
+
+h1,h2{
+    color: aqua;
+}
+
 div{
     text-align: left;
     margin-left:50px;
 }
-
 a{
     text-decoration: none;
     color:aqua
+}
+
+.box1{
+    border-radius: 50%;
+    background-color: lightblue;
+    height: 100px;
+    width: 100px;
+    position:absolute;
+    border: 3px solid rgb(168, 219, 171);
+}
+
+.box2{
+    border-radius: 50%;
+    background-color: rgba(243, 236, 140, 0.671);
+    height: 100px;
+    width: 100px;
+    position:absolute;
+    left:50px;
+    border: 3px solid rgb(147, 228, 164);
+}
+
+img{
+    margin: 2rem;
+    width:150px;
+    height:180px;
+    float: left;
 }

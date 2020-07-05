@@ -1,0 +1,31 @@
+body{
+    margin-top: 5rem;
+    text-align:center;
+}
+form{
+    margin-top:2rem;
+    text-align:center;
+}
+button
+{
+    margin-top: 0.5rem;
+}
+a:link 
+{
+    color: red;
+}
+  
+  /* visited link */
+a:visited {
+    color: #969e51;
+  }
+  
+  /* mouse over link */
+a:hover {
+    color: hotpink;
+    }
+  
+  /* selected link */
+a:active {
+    color: blue;
+}
